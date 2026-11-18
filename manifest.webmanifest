@@ -1,0 +1,10 @@
+{
+  "name": "LeadRescue — Solar Enquiry Manager (Demo)",
+  "short_name": "LeadRescue",
+  "description": "Concept demo for solar installation teams. Uses fictional browser-only data.",
+  "start_url": "./index.html#/demo",
+  "display": "standalone",
+  "background_color": "#f7f8f5",
+  "theme_color": "#123e39",
+  "icons": [{"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png"},{"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png"}]
+}
