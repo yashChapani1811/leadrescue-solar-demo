@@ -14,9 +14,10 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
-      name: github-pages
+      name: leadrescue-public-demo
       url: ${{ steps.deployment.outputs.page_url }}
     permissions:
       pages: write
